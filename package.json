@@ -1,33 +1,23 @@
 {
   "name": "youtrack",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yulya9060/youtrack.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/yulya9060/youtrack/issues"
-  },
-  "homepage": "https://github.com/yulya9060/youtrack#readme",
-  "devDependencies": {
-    "react-app-rewired": "^1.5.2"
-  },
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "preact": "^8.2.9",
-    "preact-compat": "^3.18.0",
-    "react-app-rewire-babel-loader": "^0.1.1",
-    "react-app-rewire-mobx": "^1.0.8",
-    "react-app-rewire-preact": "^1.0.1",
-    "react-app-rewire-sass": "^1.2.3",
-    "react-scripts": "^1.1.4"
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-scripts": "1.1.4"
   },
   "scripts": {
-    "start": "react-app-rewired start",
-    "build": "react-app-rewired build",
-    "test": "react-app-rewired test --env=jsdom"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "node-sass": "^4.9.0",
+    "react-app-rewired": "^1.5.2",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0"
   }
 }
