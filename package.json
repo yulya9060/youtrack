@@ -1,0 +1,33 @@
+{
+  "name": "youtrack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yulya9060/youtrack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yulya9060/youtrack/issues"
+  },
+  "homepage": "https://github.com/yulya9060/youtrack#readme",
+  "devDependencies": {
+    "react-app-rewired": "^1.5.2"
+  },
+  "dependencies": {
+    "preact": "^8.2.9",
+    "preact-compat": "^3.18.0",
+    "react-app-rewire-babel-loader": "^0.1.1",
+    "react-app-rewire-mobx": "^1.0.8",
+    "react-app-rewire-preact": "^1.0.1",
+    "react-app-rewire-sass": "^1.2.3",
+    "react-scripts": "^1.1.4"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom"
+  }
+}
